@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="66" viewBox="0 0 66 66">
+  <defs>
+    <filter id="Rectangle_479" x="0" y="0" width="66" height="66" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_602" data-name="Group 602" transform="translate(9.199 6)">
+    <g transform="matrix(1, 0, 0, 1, -9.2, -6)" filter="url(#Rectangle_479)">
+      <rect id="Rectangle_479-2" data-name="Rectangle 479" width="48" height="48" rx="8" transform="translate(9 6)" fill="#284525"/>
+    </g>
+    <g id="Icon_ionic-logo-instagram" data-name="Icon ionic-logo-instagram" transform="translate(11 11)">
+      <path id="Path_1527" data-name="Path 1527" d="M23.625,6.75a5.642,5.642,0,0,1,5.625,5.625v11.25a5.642,5.642,0,0,1-5.625,5.625H12.375A5.642,5.642,0,0,1,6.75,23.625V12.375A5.642,5.642,0,0,1,12.375,6.75h11.25m0-2.25H12.375A7.9,7.9,0,0,0,4.5,12.375v11.25A7.9,7.9,0,0,0,12.375,31.5h11.25A7.9,7.9,0,0,0,31.5,23.625V12.375A7.9,7.9,0,0,0,23.625,4.5Z" transform="translate(-4.5 -4.5)" fill="#fff"/>
+      <path id="Path_1528" data-name="Path 1528" d="M25.313,12.375A1.688,1.688,0,1,1,27,10.688,1.683,1.683,0,0,1,25.313,12.375Z" transform="translate(-4.5 -4.5)" fill="#fff"/>
+      <path id="Path_1529" data-name="Path 1529" d="M18,13.5A4.5,4.5,0,1,1,13.5,18,4.5,4.5,0,0,1,18,13.5m0-2.25A6.75,6.75,0,1,0,24.75,18,6.752,6.752,0,0,0,18,11.25Z" transform="translate(-4.5 -4.5)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

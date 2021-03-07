@@ -1,0 +1,37 @@
+footer {
+	padding: 30px 6% 30px 8%;
+	background: #284525;
+
+	.blog-scroll {
+		.blog-left {
+			max-width: 150px;
+		}
+	}
+
+	.footer-menu {
+		max-width: 300px;
+		min-width: 150px;
+		color: #F0D89F;
+		margin: 0 20px;
+		
+		ul {
+			padding: 0;
+			li {
+				list-style: none;
+				
+			}
+		}
+
+		.menu-title {
+			font-size: 17px;
+			font-style: italic;
+		}
+		&.social,
+		&.call {
+			max-width: 150px;
+			img {
+				width: 45px;
+			}
+		}
+	}
+}
