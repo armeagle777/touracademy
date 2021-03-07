@@ -1,2 +1,0 @@
-(window["webpackJsonpcra-boilerplate"]=window["webpackJsonpcra-boilerplate"]||[]).push([[7],{141:function(n,e,t){"use strict";function r(n){if(null==n)throw new TypeError("Cannot destructure undefined")}t.d(e,"a",(function(){return r}))},345:function(n,e,t){"use strict";t.r(e);var r=t(9),u=t(141),a=t(0),c=t.n(a),o=function(n){return Object(u.a)(n),c.a.createElement(c.a.Fragment,null,c.a.createElement("h1",null,"Homepage"))},i=Object(r.b)((function(){return{}}),{})(o);t.d(e,"default",(function(){return i}))}}]);
-//# sourceMappingURL=7.8b8bd9c3.chunk.js.map

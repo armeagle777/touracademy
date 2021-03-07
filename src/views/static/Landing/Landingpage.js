@@ -8,6 +8,8 @@ import tourBus from 'assets/images/landing/Tour-Academy-Bus.gif';
 import topBg from 'assets/images/landing/top-grapes.svg';
 import itemImg from 'assets/images/landing/item-img.png';
 
+import constructorImg from 'assets/images/landing/underconstruction.png';
+
 const TourItemData = [
 	 {
 		title: 'Classic budget tour',
@@ -131,12 +133,16 @@ const Landingpage = ({}) => {
 	  			<h2 className="text-center mb-4">
 	  				{/*<i>Choose one of our tours or create your own tour!</i>*/}
 	  			</h2>
-					<div className="alert alert-success" role="alert">
-						Our web site is still under construction. For further information please call <span className="danger"> +374 94 494674 </span>
+					<div className="row mb-5">
+							<div className="col-md-2">
+								<img src={constructorImg} alt="" style={{width: "100%"}}/>
+							</div>
+							<div className="col-md-10">
+								<p className="mt-3 py-2 px-2" style={{color: "#333", border: "2px solid #fdc804", borderRadius:"5px", fontSize:"14px"}}>Our web site is still under construction. For further information please call <a href="tel:0037494494674">+374 94 494674</a></p>
+								<p className="mt-4  py-2 px-2"  style={{color: "#333", border: "2px solid #fdc804", borderRadius:"5px", fontSize:"14px"}}>Наш веб-сайт все еще находится в стадии разработки. Дополнительную информацию можно получить по телефону <a href="tel:0037494494674">+374 94 494674</a></p>
+							</div>
 					</div>
-					<div className="alert alert-info " role="alert">
-						Наш веб-сайт все еще находится в стадии разработки. Дополнительную информацию можно получить по телефону +374 94 494674.
-					</div>
+
 	  			<BookingTourForm />
 	  		</div>
   		</section>
